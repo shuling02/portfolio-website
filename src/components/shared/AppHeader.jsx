@@ -128,6 +128,7 @@ const AppHeader = () => {
 					>
 						Contact
 					</Link>
+					{/*
 					<div className="border-t-2 pt-3 sm:pt-0 sm:border-t-0 border-primary-light dark:border-secondary-dark">
 						<span
 							onClick={showHireMeModal}
@@ -137,6 +138,7 @@ const AppHeader = () => {
 							<Button title="Hire Me" />
 						</span>
 					</div>
+					*/}
 				</div>
 
 				{/* Header links large screen */}
@@ -166,6 +168,7 @@ const AppHeader = () => {
 
 				{/* Header right section buttons */}
 				<div className="hidden sm:flex justify-between items-center flex-col md:flex-row">
+					{/*
 					<div className="hidden md:flex">
 						<span
 							onClick={showHireMeModal}
@@ -175,7 +178,7 @@ const AppHeader = () => {
 							<Button title="Hire Me" />
 						</span>
 					</div>
-
+					*/}
 					{/* Theme switcher large screen */}
 					<div
 						onClick={() => setTheme(activeTheme)}
