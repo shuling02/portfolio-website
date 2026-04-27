@@ -47,6 +47,7 @@ const AppHeader = () => {
 				<div className="flex justify-between items-center px-4 sm:px-0">
 					<div>
 						<Link to="/">
+							{/*
 							{activeTheme === 'dark' ? (
 								<img
 									src={logoDark}
@@ -60,6 +61,10 @@ const AppHeader = () => {
 									alt="Dark Logo"
 								/>
 							)}
+							*/}
+							<span className="text-lg font-semibold text-primary-dark dark:text-ternary-light">
+								Shuling
+							</span>
 						</Link>
 					</div>
 
